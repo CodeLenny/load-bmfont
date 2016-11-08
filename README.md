@@ -1,6 +1,9 @@
 # load-bmfont
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
+[![Travis Build Status](https://travis-ci.org/Jam3/load-bmfont.svg?branch=master)](https://travis-ci.org/Jam3/load-bmfont)
+
+[![Testling Build Status](https://ci.testling.com/Jam3/load-bmfont.png)](https://ci.testling.com/Jam3/load-bmfont)
 
 Loads an [AngelCode BMFont](http://www.angelcode.com/products/bmfont/) file from XHR (in browser) and fs (in Node), returning a [JSON representation](json-spec.md).
 
@@ -10,7 +13,7 @@ var load = require('load-bmfont')
 load('fonts/Arial-32.fnt', function(err, font) {
   if (err)
     throw err
-  
+
   //The BMFont spec in JSON form
   console.log(font.common.lineHeight)
   console.log(font.info)
@@ -46,8 +49,8 @@ Loads a BMFont file with the `opt` settings and fires the callback with `(err, f
 To support binary files in the browser and Node, you should use `binary: true`. Otherwise the XHR request might come in the form of a UTF8 string, which will not work with binary files. This also sets up the XHR object to override mime type in older browsers.
 
 ```js
-load({ 
-  uri: 'fonts/Arial.bin', 
+load({
+  uri: 'fonts/Arial.bin',
   binary: true
 }, function(err, font) {
   console.log(font)
