@@ -1,6 +1,6 @@
 {
   "name": "@codelenny/load-bmfont",
-  "version": "1.2.3",
+  "version": "0.0.0",
   "description": "loads a BMFont file in Node and the browser",
   "main": "index.js",
   "browser": "browser.js",
