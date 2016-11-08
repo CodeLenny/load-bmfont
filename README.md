@@ -1,14 +1,16 @@
 # load-bmfont
 
-[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
-[![Travis Build Status](https://travis-ci.org/Jam3/load-bmfont.svg?branch=master)](https://travis-ci.org/Jam3/load-bmfont)
+[![npm  version](https://img.shields.io/npm/v/@codelenny/load-bmfont.svg)](https://www.npmjs.com/package/@codelenny/load-bmfont)
+![stable](https://img.shields.io/badge/stability-stable-brightgreen.svg)
+[![Travis Build Status](https://travis-ci.org/CodeLenny/load-bmfont.svg?branch=master)](https://travis-ci.org/CodeLenny/load-bmfont)
+[![MIT Licensed](https://img.shields.io/npm/l/CodeLenny/load-bmfont.svg)](http://github.com/CodeLenny/load-bmfont/blob/master/LICENSE.md)
 
-[![Testling Build Status](https://ci.testling.com/Jam3/load-bmfont.png)](https://ci.testling.com/Jam3/load-bmfont)
+[![Testling Build Status](https://ci.testling.com/CodeLenny/load-bmfont.png)](https://ci.testling.com/CodeLenny/load-bmfont)
 
 Loads an [AngelCode BMFont](http://www.angelcode.com/products/bmfont/) file from XHR (in browser) and fs (in Node), returning a [JSON representation](json-spec.md).
 
 ```js
-var load = require('load-bmfont')
+var load = require('@codelenny/load-bmfont')
 
 load('fonts/Arial-32.fnt', function(err, font) {
   if (err)
@@ -59,4 +61,4 @@ load({
 
 ## License
 
-MIT, see [LICENSE.md](http://github.com/Jam3/load-bmfont/blob/master/LICENSE.md) for details.
+MIT, see [LICENSE.md](http://github.com/CodeLenny/load-bmfont/blob/master/LICENSE.md) for details.

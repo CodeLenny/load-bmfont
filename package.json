@@ -1,15 +1,16 @@
 {
-  "name": "load-bmfont",
-  "version": "1.2.3",
+  "name": "@codelenny/load-bmfont",
+  "version": "0.0.0",
   "description": "loads a BMFont file in Node and the browser",
   "main": "index.js",
   "browser": "browser.js",
   "license": "MIT",
-  "author": {
+  "author": "Ryan Leonard (http://ryanleonard.us)",
+  "contributors": [{
     "name": "Matt DesLauriers",
     "email": "dave.des@gmail.com",
     "url": "https://github.com/mattdesl"
-  },
+  }],
   "dependencies": {
     "buffer-equal": "0.0.1",
     "mime": "^1.3.4",
@@ -45,10 +46,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Jam3/load-bmfont.git"
+    "url": "git://github.com/CodeLenny/load-bmfont.git"
   },
-  "homepage": "https://github.com/Jam3/load-bmfont",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/",
+    "access": "public"
+  },
+  "homepage": "https://github.com/CodeLenny/load-bmfont",
   "bugs": {
-    "url": "https://github.com/Jam3/load-bmfont/issues"
+    "url": "https://github.com/CodeLenny/load-bmfont/issues"
   }
 }
