@@ -1,7 +1,9 @@
 # load-bmfont
 
-[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
+[![npm  version](https://img.shields.io/npm/v/@codelenny/load-bmfont.svg)](https://www.npmjs.com/package/@codelenny/load-bmfont)
+![stable](https://img.shields.io/badge/stability-stable-brightgreen.svg)
 [![Travis Build Status](https://travis-ci.org/CodeLenny/load-bmfont.svg?branch=master)](https://travis-ci.org/CodeLenny/load-bmfont)
+[![MIT Licensed](https://img.shields.io/npm/l/CodeLenny/load-bmfont.svg)](http://github.com/CodeLenny/load-bmfont/blob/master/LICENSE.md)
 
 [![Testling Build Status](https://ci.testling.com/CodeLenny/load-bmfont.png)](https://ci.testling.com/CodeLenny/load-bmfont)
 
