@@ -31,13 +31,23 @@ Currently supported BMFont formats:
 - XML
 - binary
 
+## Origin
+
+This is a fork of [Jam3/load-bmfont](https://github.com/Jam3/load-bmfont).
+
+Added:
+- Testing via Travis CI
+
+Modified:
+- Made error messages more informative
+
 ## See Also
 
 See [text-modules](https://github.com/mattdesl/text-modules) for related modules.
 
 ## Usage
 
-[![NPM](https://nodei.co/npm/load-bmfont.png)](https://www.npmjs.com/package/load-bmfont)
+[![NPM](https://nodei.co/npm/@codelenny/load-bmfont.png)](https://www.npmjs.com/package/@codelenny/load-bmfont)
 
 #### `load(opt, cb)`
 
